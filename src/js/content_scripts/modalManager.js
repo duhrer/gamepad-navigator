@@ -112,7 +112,7 @@ https://github.com/fluid-lab/gamepad-navigator/blob/main/LICENSE
 
     gamepad.modalManager.createShadow = function (that) {
         var host = that.container[0];
-        var shadowElement = host.attachShadow({mode: "open"});
+        var shadowElement = host.attachShadow({mode: "closed"});
 
         // We inline all styles here so that all modals get the common styles,
         // and to avoid managing multiple shadow elements.
